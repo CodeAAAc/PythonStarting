@@ -10,11 +10,10 @@ print(
 |¿Cuál es el número secreto?     |
 +================================+
 """)
-
-mugle_number = int(input ("Escribe el número: "))
+mugle_number = int(input("Dime el número secreto: "))
 
 while mugle_number != secret_number:
     print("¡Ja, ja! ¡Estás atrapado en mi bucle!")
-    input("¿Cuál es el número secreto? ")
+    mugle_number = int(input("Dime el número secreto: "))
     
 print("¡Bien hecho, muggle! Eres libre ahora.")
