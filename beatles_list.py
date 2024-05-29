@@ -21,4 +21,4 @@ beatles.insert(0,"Ringo Starr")
 print(beatles)
 
 
-print("Longitud de la list", len(beatles))
+print("Longitud de la lista", len(beatles))
