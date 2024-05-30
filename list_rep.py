@@ -1,5 +1,8 @@
 my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 
+print("La lista inicial");
+print(my_list);
+
 my_list2 = []
 long_list = len(my_list);
 
