@@ -3,3 +3,5 @@ def es_bisiesto(year):
         return True
     else:
         return False
+
+print(es_bisiesto(2000))
